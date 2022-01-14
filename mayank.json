@@ -1,0 +1,549 @@
+{
+    // Editor
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.linkedEditing": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Italicize Comment",
+                "scope": [
+                    "comment",
+                    "comment.block",
+                    "comment.block.documentation",
+                    "comment.line",
+                    "comment.line.double-slash",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.wordWrap": "on",
+
+    // Explorer
+    "explorer.decorations.badges": false,
+
+    // Files
+    "files.eol": "\n",
+    "files.exclude": {
+        // Default
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+
+        // By Java Extension
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+
+        // Others
+        "**/node_modules": true
+    },
+
+    // Workbench
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Terminal
+    "terminal.external.windowsExec": "C:\\Program Files\\Git\\git-cmd.exe",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.confirmOnExit": "always",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+
+    // Settings Sync
+    "sync.autoUpload": true,
+    "sync.quietSync": true,
+
+    // Autoprefixer Extension
+    "autoprefixer.formatOnSave": true,
+    "autoprefixer.options": {
+        "browsers": [
+            "last 2 versions",
+            "ie >= 9",
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ]
+    },
+
+    // Bracket Pair Colorizer Extension
+    "bracketPairColorizer.depreciation-notice": false,
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+
+    // Color Highlight Extension
+    "color-highlight.matchWords": true,
+
+    // Color Info Extension
+    "colorInfo.languages": [
+        {
+            "selector": "css",
+            "colors": "css"
+        },
+        {
+            "selector": "sass",
+            "colors": "css"
+        },
+        {
+            "selector": "scss",
+            "colors": "css"
+        },
+        {
+            "selector": "less",
+            "colors": "css"
+        },
+        {
+            "selector": "typescript",
+            "colors": "css"
+        },
+        {
+            "selector": "javascript",
+            "colors": "css"
+        }
+    ],
+
+    // Code Spell Checker Extension
+    "cSpell.userWords": ["Mayank", "Singla"],
+
+    // Document This Extension
+    "docthis.authorName": "Mayank Singla",
+    "docthis.dateTagFormat": "ddd, dd mmm yyyy hh:MM:ss TT 'GMT'o '(IST)'",
+    "docthis.includeAuthorTag": true,
+    "docthis.includeDateTag": true,
+    "docthis.includeDescriptionTag": true,
+
+    // Emmet
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+
+    // Eslint
+    "eslint.alwaysShowStatus": true,
+
+    // File Size Extension
+    "filesize.displayInfoOnTheRightSideOfStatusBar": true,
+    "filesize.showBrotli": true,
+    "filesize.use24HourFormat": false,
+
+    // Formatting Toggle Extension
+    "formattingToggle.affects": ["editor.formatOnPaste", "editor.formatOnSave"],
+
+    // vscode-pdf Extension
+    "pdf-preview.default.scale": "page-width",
+
+    // Visual Studio Intellicode
+    "vsintellicode.modify.editor.suggestSelection": "disabled",
+
+    // CSS
+    "css.lint.duplicateProperties": "warning",
+    "html-css-class-completion.enableEmmetSupport": true,
+
+    // JavaScript
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    // JSON for VSCode
+    "JSON-zain.json.autorefresh": true,
+
+    // SCSS
+    "scss.lint.duplicateProperties": "warning",
+    "scss.showErrors": true,
+
+    // Markdown Preview Enhanced
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.codeBlockTheme": "atom-material.css",
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "markdown-preview-enhanced.singlePreview": false,
+
+    // Markdown PDF
+    "markdown-pdf.footerTemplate": "<p></p>",
+    "markdown-pdf.headerTemplate": "<p></p>",
+    "markdown-pdf.margin.top": "1cm",
+
+    // Material UI Snippets Extension
+    "material-ui-snippets.showNotesOnStartup": false,
+
+    // C++
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0, AlignConsecutiveMacros: true}",
+    "C_Cpp.default.browse.path": [
+        "C:/Program Files/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+        "${default}"
+    ],
+    "C_Cpp.default.compilerPath": "C:/Program Files/mingw-w64/mingw64/bin/g++.exe",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "gnu17",
+    "C_Cpp.default.includePath": [
+        "C:/Program Files/mingw-w64/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++",
+        "${default}"
+    ],
+    "cmake.configureOnOpen": false,
+
+    // Competitive Programming Helper
+    "cph.general.defaultLanguage": "cpp",
+    "cph.general.defaultLanguageTemplateFileLocation": "/mnt/d/Computer Science/Activities/Competitive_Programming/cplib/templates/main.cpp",
+    "cph.language.cpp.Args": "-std=c++14 -DSMILE",
+
+    // Java
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
+
+    // Python
+    "[python]": {
+        "gitlens.codeLens.symbolScopes": ["!Module"],
+        "editor.formatOnPaste": false,
+        "editor.wordBasedSuggestions": false
+    },
+    "python.terminal.activateEnvironment": false,
+    "python.defaultInterpreterPath": "C:\\Users\\singl\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.formatting.provider": "black",
+    "python.pythonPath": "C:\\Users\\singl\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+
+    // Notebook settings
+    "jupyter.jupyterServerType": "local",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "notebook.lineNumbers": "on",
+    "notebook.outline.showCodeCells": true,
+
+    // Prettier
+    "prettier.tabWidth": 4,
+    "[ansible]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[graphql]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[handlebars]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[home-assistant]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json5]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsx]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[mdx]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[mongo]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[postcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Better Comments Extension
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        },
+        {
+            "tag": "~",
+            "color": "#999999",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        },
+        {
+            "tag": "_",
+            "color": "#ffffff",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "black",
+            "bold": true,
+            "italic": true
+        },
+        {
+            "tag": "-",
+            "color": "yellow",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        },
+        {
+            "tag": ":",
+            "color": "black",
+            "strikethrough": false,
+            "underline": true,
+            "backgroundColor": "white",
+            "bold": false,
+            "italic": true
+        }
+    ],
+
+    // TODO Tree Settings
+    "todo-tree.general.tagGroups": {
+        "BUG": ["BUG", "ERR", "ERROR"],
+        "EXAMPLE": ["EXAMPLE", "EX"],
+        "FIXME": ["FIXME", "FIX"],
+        "HACK": ["HACK"],
+        "IMPORTANT": ["IMPORTANT", "IMP"],
+        "NOTE": ["NOTE"],
+        "REF": ["REF"],
+        "REVIEW": ["REVIEW"],
+        "TEST": ["TEST", "TESTING"],
+        "TODO": ["TODO", "TO-DO"],
+        "WARN": ["WARN", "WARNING"]
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "ERR",
+        "ERROR",
+        "EXAMPLE",
+        "EX",
+        "FIXME",
+        "FIX",
+        "HACK",
+        "IMPORTANT",
+        "IMP",
+        "NOTE",
+        "REF",
+        "REVIEW",
+        "TEST",
+        "TESTING",
+        "TODO",
+        "TO-DO",
+        "WARN",
+        "WARNING",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "BUG": {
+            "background": "red",
+            "foreground": "black",
+            "icon": "x-circle",
+            "iconColour": "red",
+            "type": "text"
+        },
+        "EXAMPLE": {
+            "background": "darkviolet",
+            "foreground": "white",
+            "icon": "note",
+            "iconColour": "darkviolet",
+            "type": "text"
+        },
+        "FIXME": {
+            "background": "orangered",
+            "foreground": "white",
+            "icon": "bug",
+            "iconColour": "orangered",
+            "type": "text"
+        },
+        "HACK": {
+            "background": "gold",
+            "foreground": "black",
+            "icon": "alert",
+            "iconColour": "gold",
+            "type": "text"
+        },
+        "IMPORTANT": {
+            "background": "yellow",
+            "foreground": "black",
+            "icon": "note",
+            "iconColour": "darkviolet",
+            "type": "text"
+        },
+        "NOTE": {
+            "background": "blue",
+            "foreground": "white",
+            "icon": "note",
+            "iconColour": "blue",
+            "type": "text"
+        },
+        "REF": {
+            "background": "grey",
+            "foreground": "black",
+            "icon": "link",
+            "iconColour": "grey",
+            "type": "tag"
+        },
+        "REVIEW": {
+            "background": "cyan",
+            "foreground": "black",
+            "icon": "eye",
+            "iconColour": "cyan",
+            "type": "text"
+        },
+        "TEST": {
+            "background": "#ccae62",
+            "foreground": "black",
+            "icon": "star-fill",
+            "iconColour": "#ccae62",
+            "type": "text"
+        },
+        "TODO": {
+            "background": "green",
+            "foreground": "black",
+            "icon": "check-circle-fill",
+            "iconColour": "green",
+            "type": "text"
+        },
+        "WARN": {
+            "background": "red",
+            "foreground": "white",
+            "icon": "alert",
+            "iconColour": "red",
+            "type": "text"
+        }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+        "type": "text-and-comment"
+    },
+    "todo-tree.highlights.highlightDelay": 0,
+    "todo-tree.tree.groupedByTag": true,
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+
+    // Vim Settings
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visualline": "block",
+    "vim.easymotion": true,
+    "vim.highlightedyank.duration": 800,
+    "vim.highlightedyank.enable": true,
+    "vim.history": 1000,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        },
+        {
+            "before": ["<space>"],
+            "commands": ["workbench.action.files.save"]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [">"],
+            "commands": ["editor.action.indentLines"]
+        },
+        {
+            "before": ["<"],
+            "commands": ["editor.action.outdentLines"]
+        }
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}

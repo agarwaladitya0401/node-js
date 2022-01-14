@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+  - var tit = "cool dude"
+    title= tit
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul my list 
+      li item1 
+      li item2 
+
+    -var con = true
+
+    if con
+      p it's true :)
+    else 
+     p its false :/
+
+    - var arr = [1,2,3]
+
+    each val in arr 
+     li val is #{val}
+    block content

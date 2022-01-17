@@ -1,0 +1,23 @@
+<h1>{{title}}</h1>
+<p> Welcome to {{title}}</p>
+
+{{#if success}}
+    <p>everything went fine</p>
+{{else}}
+    {{#if errors}}
+        <section>
+            <ul>
+                {{#each errors}}
+                    <li>{{this.msg}}</li>
+                {{/each}}
+            </ul>
+        </section>
+    {{/if}}
+
+    <form action="/submit" method="post">
+        <input type="email" , name="email" />
+        <input type="password" name="password" id="password" />
+        <input type="password" name="confirmPassword" id="password" />
+        <button type="submit">submit</button>
+    </form>
+{{/if}}

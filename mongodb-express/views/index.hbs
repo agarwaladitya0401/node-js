@@ -1,0 +1,56 @@
+<h1>{{title}}</h1>
+<p> Welcome to {{title}}</p>
+
+{{!-- {{#if success}}
+    <p>everything went fine</p>
+{{else}}
+    {{#if errors}}
+        <section>
+            <ul>
+                {{#each errors}}
+                    <li>{{this.msg}}</li>
+                {{/each}}
+            </ul>
+        </section>
+    {{/if}}
+
+    <form action="/submit" method="post">
+        <input type="email" , name="email" />
+        <input type="password" name="password" id="password" />
+        <input type="password" name="confirmPassword" id="password" />
+        <button type="submit">submit</button>
+    </form>
+{{/if}} --}}
+
+<section class="insert">
+    <h3>insert data</h3>
+    <form action="/insert" method="post">
+        <div class="input">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" />
+        </div>
+        <div class="input">
+            <label for="content">Description</label>
+            <input type="text" name="content" id="content" />
+        </div>
+        <div class="input">
+            <label for="author">Author</label>
+            <input type="text" name="author" id="author" />
+        </div>
+        <button type="submit">submit</button>
+    </form>
+</section>
+
+<section class="get">
+    <h3>Get Data</h3>
+    <a href="/get-data">Load Data</a>
+    <div>
+        {{#each items}}
+            <article>
+                <div>Title:{{this.title}} </div>
+                <div>Content:{{this.content}} </div>
+                <div>Author:{{this.author}} </div>
+            </article>
+        {{/each}}
+    </div>
+</section>

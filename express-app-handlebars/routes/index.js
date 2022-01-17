@@ -17,7 +17,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-    res.json({ id: "1" });
+    // res.json({ id: "1" });
     res.render("index", { title: "Express" });
     // res.send("respond with a resource");
     // res.end();
